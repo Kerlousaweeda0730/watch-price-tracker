@@ -14,3 +14,5 @@ async def on_ready():
     print("Logged in as " + bot.user.name)
   except Exception:
     print(Exception)
+
+bot.run(TOKEN)
